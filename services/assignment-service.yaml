@@ -4,7 +4,7 @@ spring:
       enabled: true
 
   datasource:
-    url: jdbc:mysql://localhost:3306/campusdocs_assignment_db
+    url: jdbc:mysql://localhost:3306/campusdocs_assignment_db?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
     username: root
     password: Q?e^co)@"2gnl``-
     driver-class-name: com.mysql.cj.jdbc.Driver

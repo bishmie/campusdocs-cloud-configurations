@@ -2,9 +2,12 @@ server:
   port: 0
 
 spring:
-  data:
+  mvc:
+    problemdetails:
+      enabled: true
+
     mongodb:
-      uri: mongodb://${MONGO_HOST:localhost}:27017/campusdocs_submission_db
+      uri: mongodb://root:42XAv84Ze3wczx601QHeNSndC5uR1KUOFyz_z48me2zvnyvI@138f2a46-dd2a-49de-b154-1eb2cbd94405.asia-southeast1.firestore.goog:443/db-campusdocs?loadBalanced=true&tls=true&authMechanism=SCRAM-SHA-256&retryWrites=false
 
 eureka:
   instance:

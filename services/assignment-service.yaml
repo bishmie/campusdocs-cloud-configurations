@@ -4,9 +4,9 @@ spring:
       enabled: true
 
   datasource:
-    url: jdbc:mysql://localhost:3306/db-capstone?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://localhost:3306/campusdocs_assignment_db
     username: root
-    password: mysql
+    password: Q?e^co)@"2gnl``-
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
